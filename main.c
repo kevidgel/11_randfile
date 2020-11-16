@@ -52,8 +52,7 @@ int main() {
         return 0;
     }
 
-    printf("Verification that written values were the same:\n\n");
-    
+    printf("Verification that written values were the same:\n");
     int randos2[10]; 
     for (i = 0; i < 10; i++) 
     {
@@ -65,6 +64,8 @@ int main() {
         }
         printf("\trandom %d: %d\n", i, randos2[i]);
     }
+
+    printf("\n");
 
     return 0;
 }
